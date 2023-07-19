@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHookRepo", "WebHookRepo\WebHookRepo.csproj", "{8A87DF27-5EDD-4617-875B-4620D1CB0B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{A2A529A2-BF7D-4B2E-9628-96792F7593DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{833DCD0A-0444-4976-83FD-7CD5A3CD2A1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8A87DF27-5EDD-4617-875B-4620D1CB0B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A87DF27-5EDD-4617-875B-4620D1CB0B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A87DF27-5EDD-4617-875B-4620D1CB0B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A529A2-BF7D-4B2E-9628-96792F7593DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A529A2-BF7D-4B2E-9628-96792F7593DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A529A2-BF7D-4B2E-9628-96792F7593DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A529A2-BF7D-4B2E-9628-96792F7593DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833DCD0A-0444-4976-83FD-7CD5A3CD2A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833DCD0A-0444-4976-83FD-7CD5A3CD2A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833DCD0A-0444-4976-83FD-7CD5A3CD2A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833DCD0A-0444-4976-83FD-7CD5A3CD2A1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
