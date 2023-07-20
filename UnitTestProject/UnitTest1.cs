@@ -7,7 +7,7 @@ namespace UnitTestProject
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod1()                   //execute by the test framework
         {
             // Arrange
             string Name = "subhi";
@@ -19,12 +19,12 @@ namespace UnitTestProject
             string actual = Add(Name, Email, MobileNumber);
 
             // Assert
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected, actual);          //checks actual = expecte
         }
 
         private string Add(string name, string email, string mobileNumber)
         {
-            return name + email + mobileNumber;
+            return name + email + mobileNumber;             //returns concatenation
         }
     }
 }

@@ -1,27 +1,27 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using UnitTest.Models;
+﻿//using Microsoft.AspNetCore.Http;
+//using Microsoft.AspNetCore.Mvc;
+//using UnitTest.Models;
 
-namespace UnitTest.Controllers
-{
-    [Route("api/staffs")]
-    [ApiController]
-    public class UnitTestController : ControllerBase
-    {
-        // POST api/staffs
-        [HttpPost]
-        public IActionResult CreateStaff([FromBody] UTest staff)
-        {
-            // Your implementation to create a new staff in the database using Dapper or other ORM
-            // Example code:
-            string result = Add(staff.Name, staff.Email, staff.MobileNumber);
+//namespace UnitTest.Controllers
+//{
+//    [Route("api/staffs")]
+//    [ApiController]
+//    public class UnitTestController : ControllerBase
+//    {
+//        // POST api/staffs
+//        [HttpPost]
+//        public IActionResult CreateStaff([FromBody] UTest staff)
+//        {
+//            // Your implementation to create a new staff in the database using Dapper or other ORM
+//            // Example code:
+//            string result = Add(staff.Name, staff.Email, staff.MobileNumber);
 
-            return Ok(result);
-        }
+//            return Ok(result);
+//        }
 
-        private string Add(string name, string email, string mobileNumber)
-        {
-            return name + email + mobileNumber;
-        }
-    }
-}
+//        private string Add(string name, string email, string mobileNumber)
+//        {
+//            return name + email + mobileNumber;
+//        }
+//    }
+//}
